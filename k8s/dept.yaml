@@ -26,7 +26,7 @@ spec:
           # - Each init container must complete successfully before the next one starts.
       containers:
       - name:  dept-demo
-        image:  101275806917.dkr.ecr.ap-south-1.amazonaws.com/demo1:latest
+        image:  101275806917.dkr.ecr.ap-south-1.amazonaws.com/demo1:number
         resources:
           requests:
             cpu: 100m
